@@ -1,0 +1,184 @@
+.works {
+  & {
+    background-color: #fafafa;
+  }
+  &-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  &_title {
+    margin-top: 67px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 140%;
+    letter-spacing: 0.25px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  &-list-one {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    gap: 140px;
+    list-style-type: none;
+  }
+  &_item__one {
+    width: 294px;
+    background-color: white;
+    border-radius: 12px;
+  }
+  &_link__one {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 95px;
+    padding-bottom: 27px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.44px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  &_link1__before::before {
+    display: inline-block;
+    content: url(../img/star_g.svg);
+    position: absolute;
+    left: 130px;
+    top: 45px;
+  }
+  &_link2__before::before {
+    display: inline-block;
+    content: url(../img/car.svg);
+    position: absolute;
+    left: 130px;
+    top: 45px;
+  }
+  &_link3__before::before {
+    display: inline-block;
+    content: url(../img/like.svg);
+    position: absolute;
+    left: 130px;
+    top: 45px;
+  }
+  &-title-two {
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 140%;
+    letter-spacing: 0.25px;
+    font-feature-settings: "pnum" on, "lnum" on;
+  }
+  &-list-two {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 64px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style-type: none;
+  }
+  &_item__two {
+    margin-left: auto;
+    margin-right: auto;
+    width: 264px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 98px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+  }
+  &_text__one {
+    margin: 7px 12px 8px 12px;
+    padding: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    font-feature-settings: "pnum" on, "lnum" on;
+  }
+  &_text__two {
+    margin: 0 12px 4px 12px;
+    padding: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: 0.4px;
+    font-feature-settings: "pnum" on, "lnum" on;
+  }
+  &-item-box {
+    margin: 0 12px 8px 12px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-item-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    list-style-type: none;
+  }
+  &_btn {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    padding: 8px 24px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    font-feature-settings: "pnum" on, "lnum" on;
+    background-color: #ffc000;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  &-title-three {
+    margin-bottom: 38px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.25px;
+    font-feature-settings: "pnum" on, "lnum" on;
+  }
+  &-list-three {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 245px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+  }
+  &_item__three {
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  &_item__link::before {
+    display: inline-block;
+    content: "Женская обувь";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #ffc000;
+    padding: 22px 41px;
+    background-color: #000000;
+    border-radius: 0 0 8px 8px;
+    position: absolute;
+    bottom: 0;
+  }
+}

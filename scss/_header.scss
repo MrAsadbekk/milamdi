@@ -1,0 +1,97 @@
+.header {
+  &-top-container {
+    background-color: black;
+  }
+  &-top {
+    margin: 0;
+    padding: 0;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+  &-top-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-right: auto;
+    gap: 10px;
+  }
+  &_lang {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 140%;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  &-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  &-bottom-box {
+    margin: o;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &_logo {
+    text-decoration: none;
+    font-family: "poppins";
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 140%;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #0d0d0d;
+  }
+  &-bottom-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style-type: none;
+    margin-left: 120px;
+  }
+  &_nav__link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.1px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  &_btn__one {
+    margin-left: 250px;
+    padding: 4px 8px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  &_btn__two {
+    margin-left: 15px;
+    padding: 4px 8px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.44px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #0d0d0d;
+    background-color: #ffc000;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  &_bottom__link {
+    margin-left: 40px;
+  }
+}

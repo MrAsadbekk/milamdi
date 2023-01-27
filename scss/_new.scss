@@ -1,0 +1,94 @@
+.new {
+  & {
+    background-color: #e5e5e5;
+  }
+  &-title {
+    margin-top: 64px;
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.25px;
+    font-feature-settings: "pnum" on, "lnum" on;
+  }
+  &-box {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: white;
+    margin-bottom: 48px;
+  }
+  &_box__title {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 556px;
+    margin-top: 101px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 140%;
+    letter-spacing: 0.25px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #0d0d0d;
+  }
+  &_box__title::before {
+    display: inline-block;
+    content: url(../img/new_box.png);
+    position: absolute;
+    left: -740px;
+    top: -101px;
+  }
+  &_text {
+    width: 558px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.44px;
+    font-feature-settings: "pnum" on, "lnum" on;
+  }
+  &_btn {
+    margin-bottom: 101px;
+    margin-right: 370px;
+    padding: 8px 23px;
+    background-color: #ffc000;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    font-feature-settings: "pnum" on, "lnum" on;
+    border: none;
+  }
+  &-box-one {
+    padding-top: 173px;
+    padding-bottom: 173px;
+    background-color: #ffc000;
+    margin-bottom: 80px;
+  }
+  &_text__one {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 666px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.25px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #0d0d0d;
+  }
+  &_text__span {
+    font-size: 50px;
+  }
+}

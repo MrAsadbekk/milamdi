@@ -1,0 +1,97 @@
+.intro {
+  &-bgi {
+    margin: 0;
+    padding: 0;
+    background-color: #e1aa00;
+    height: 200px;
+  }
+  &-bgi-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+  }
+  &_btn {
+    margin-top: auto;
+    margin-bottom: 33px;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/intro_btn.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: none;
+    background-color: transparent;
+  }
+  &_btn__active {
+    background-image: url(../img/intro_btn_a.svg);
+    border: 1px solid #0d0d0d;
+    border-radius: 32px;
+    cursor: pointer;
+  }
+  &_btn:hover {
+    background-image: url(../img/intro_btn_a.svg);
+    border: 1px solid #0d0d0d;
+    border-radius: 32px;
+    cursor: pointer;
+  }
+  &-container {
+    position: relative;
+    background-color: #000;
+    padding-bottom: 150px;
+  }
+  &-container::before {
+    display: inline-block;
+    content: url(../img/intro_bgi.png);
+    width: 512px;
+    height: 788px;
+    position: absolute;
+    right: 150px;
+    top: -195px;
+  }
+  &_title {
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    margin-bottom: 16px;
+    width: 588px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 140%;
+    letter-spacing: 0.25px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #ffffff;
+  }
+  &_text {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
+    width: 588px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.1px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #ffffff;
+  }
+  &_link {
+    margin-left: 12px;
+    position: relative;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #ffc000;
+    display: flex;
+    align-items: center;
+  }
+  &_link::after {
+    display: inline-block;
+    content: url(../img/intro_lb.svg);
+    position: absolute;
+    left: -12px;
+  }
+}
