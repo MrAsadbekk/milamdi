@@ -404,6 +404,9 @@ img {
   color: #ffffff;
   text-decoration: none;
 }
+.header-bottom-container {
+  box-shadow: 0px 8px 22px -6px rgba(24, 39, 75, 0.12), 0px 14px 64px -4px rgba(24, 39, 75, 0.12);
+}
 .header-bottom {
   display: flex;
   align-items: center;
@@ -990,4 +993,33 @@ img {
   letter-spacing: 0.25px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #000000;
+}
+
+.about__intro-container {
+  padding-top: 64px;
+  padding-bottom: 200px;
+  background-image: url(../img/about_intro_bgi.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 350px) calc(50% + 30px);
+}
+.about__intro-title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.about__intro__box-title {
+  width: 557px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 24px;
+  margin-top: 87px;
+}
+.about__intro-text {
+  margin: 0;
+  padding: 0;
+  width: 557px;
 }/*# sourceMappingURL=styles.css.map */
