@@ -1,0 +1,41 @@
+.categories {
+  &__container {
+    padding-top: 64px;
+    padding-bottom: 40px;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 140%;
+    text-align: center;
+  }
+
+  &__box {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  &__img {
+    display: block;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 26px;
+  }
+
+  &__text {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+  }
+}
