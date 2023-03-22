@@ -1,0 +1,61 @@
+.location {
+  &__container {
+    margin-bottom: 65px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 128px;
+    padding-top: 150px;
+    padding-left: 0;
+  }
+
+  &__box-one {
+    width: 705px;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__yandex {
+    width: 705px;
+    height: 630px;
+  }
+
+  &__box-title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 64px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 65px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__minilist {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  &__miniitem {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  &__miniitem-one {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 5px;
+  }
+}

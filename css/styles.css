@@ -1022,4 +1022,61 @@ img {
   margin: 0;
   padding: 0;
   width: 557px;
+}
+
+.about__works {
+  padding-bottom: 200px;
+}
+
+.location__container {
+  margin-bottom: 65px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 128px;
+  padding-top: 150px;
+  padding-left: 0;
+}
+.location__box-one {
+  width: 705px;
+  margin: 0;
+  padding: 0;
+}
+.location__yandex {
+  width: 705px;
+  height: 630px;
+}
+.location__box-title {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 64px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 65px;
+}
+.location__list {
+  display: grid;
+  grid-template-columns: auto auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.location__minilist {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.location__miniitem {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+.location__miniitem-one {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 5px;
 }/*# sourceMappingURL=styles.css.map */
